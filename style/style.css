@@ -23,7 +23,7 @@ img {
   max-width: 100%;
 }
 
-h1{
+h1 {
   font-size: 76px;
 }
 
@@ -47,14 +47,14 @@ h1{
   flex-wrap: wrap;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-.row-reverse{
+.row-reverse {
   flex-direction: row-reverse;
 }
 
@@ -65,14 +65,18 @@ h1{
   justify-content: space-between;
 }
 
-.align-center{
+.align-center {
   align-items: center;
 }
 
-.center-text{
+.center-text {
   text-align: center;
 }
-.marginX-center{
+.right-text {
+  text-align: right;
+}
+
+.marginX-center {
   margin: 0 auto;
 }
 
@@ -83,77 +87,144 @@ h1{
   width: 50%;
 }
 .col-33 {
-  width: calc(100%/3);
+  width: calc(100% / 3);
+}
+.col-30 {
+  width: 30%;
 }
 .col-66 {
-  width: calc((100%/3)*2);
+  width: calc((100% / 3) * 2);
 }
 
-/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
-/* -- GENERAL STYLE -- */
-body{
-  font-family:Arial, Helvetica, sans-serif;
-}
-
-/* header */
-header{
-  padding: 25px 20px;
-}
-header a{
-  color: #444444;
-}
-
-header ul{
-  display: inline;
-}
-header li{
-  display: inline;
-  margin: 10px;
-}
-header button{
-  background-color: #0061FF;
+.bt_style1 {
+  background-color: #0061ff;
   color: white;
   padding: 10px;
 }
 
-/* main */
-.hero{
-  background-color: #B4D0E7;
+.text-gray {
+  color: #acb1bc;
 }
-.hero .container{
+.text-blue {
+  color: #0c62ff;
+}
+
+.border-gray {
+  border: 2px solid #ededee;
+}
+.gapY-30 {
+  row-gap: 30px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+/* -- GENERAL STYLE -- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main section {
+  margin: 100px 0;
+}
+
+/* header */
+header {
+  padding: 25px 20px;
+}
+header a {
+  color: #444444;
+}
+
+header ul {
+  display: inline;
+}
+header li {
+  display: inline;
+  margin: 10px;
+}
+
+/* main */
+/* -- hero */
+.hero {
+  background-color: #b4d0e7;
+}
+.hero .container {
   position: relative;
   top: 50px;
 }
 
-.hero .img-hero{
+.hero .img-hero {
   background-color: #081753;
   width: 100%;
   height: 500px;
 }
 
-.hero .icon-arrow-down{
-  /* padding-bottom: 100px; */
+.hero .icon-arrow-down {
   font-size: 40px;
   position: absolute;
-  bottom: 60px;  
+  bottom: 60px;
 }
-.hero h1{
+.hero h1 {
   margin: 35px 0;
 }
-.hero button{
+.hero button {
   margin: 35px 0;
+}
+/* -- business-plan */
+.business-plan .card-header p {
+  text-align: center;
   padding: 10px;
-  background-color: #0061FF;
-  color: white;
+  border-bottom: 2px solid #ededee;
+}
+.business-plan .card-main {
+  padding: 0 30px;
 }
 
+.business-plan .card-main-box {
+  margin: 30px 0;
+}
+
+.business-plan .card-main-box b {
+  line-height: 30px;
+}
+
+.business-plan .card-main-box p {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+.linietta {
+  background-color: #ededee;
+  width: 25%;
+  height: 2px;
+}
+
+.business-plan .team-head {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #ededee;
+}
+
+.business-plan .team-foot {
+  padding: 20px;
+}
+.business-plan .team-foot b,
+.business-plan .team-foot p {
+  display: inline-block;
+  margin: 20px 0;
+}
+
+/* -- finde-partner */
+/* -- option-dropbox */
+/* -- our-customers */
+/* -- designit-section */
+/* -- free-try-section */
+/* -- faq */
+
 /* footer */
+/* -- useful-links */
+/* -- languages */
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* -- DEBUG -- */
-.debug :is(header,
-main,
-footer){
+.debug :is(header, main, footer) {
   border-top: 2px solid rgb(0, 250, 0);
 }
 
