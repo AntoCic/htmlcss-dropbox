@@ -85,6 +85,15 @@ body{
 }
 
 /* header */
+header a{
+}
+
+header ul{
+  display: inline;
+}
+header li{
+  display: inline;
+}
 
 /* main */
 
@@ -122,4 +131,15 @@ footer{
   padding: 10px;
   min-height: 10px;
 }
-
+.debug a {
+  background-color: #da202062;
+  padding: 10px;
+}
+.debug ul {
+  border: 2px solid #2c20da;
+  padding: 10px;
+}
+.debug li {
+  background-color: #2c20da62;
+  padding: 10px;
+}
