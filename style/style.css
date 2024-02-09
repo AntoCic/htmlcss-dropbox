@@ -258,14 +258,49 @@ header img{
   display: flex;
   flex-direction: column; 
   justify-content: center;
+  padding: 60px;
 }
-.logo-Designit{
+.logo-designit{
   background-color: #A2D39B;
+  border: 10px solid #D1E9CD;
 }
-.logo-Designit img{
+.logo-arizona{
+  background-color: #61082B;
+}
+.logo-uf{
+  background-color: #0093CE;
+}
+.logo-topps{
+  background-color: #FF1C1C;
+}
+
+.logo-bicycle{
+  background-color: #D5001F;
+}
+.logo-hearst{
+  background-color: #B4D0E7;
+}
+.logo-lonely{
+  background-color: #0D2481;
+}
+.logo-channel{
+  background-color: #FFD830;
+}
+
+.designit-main{
+  background-color: #F5F5F5;
   padding: 50px;
+}
+.designit-main img{
+  width: 50%;
   
 }
+.designit-main  .linietta,
+.designit-main p:last-child{
+  margin: 30px 0;
+}
+
+
 /* -- free-try-section */
 /* -- faq */
 
