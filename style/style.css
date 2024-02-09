@@ -93,13 +93,19 @@ h1 {
   width: 50%;
 }
 .col-33 {
-  width: calc(100% / 3);
+  width: calc(100%/3);
 }
 .col-30 {
-  width: 30%;
+  width: calc((100%-100px)/3);
 }
 .col-66 {
   width: calc((100% / 3) * 2);
+}
+.col-10{
+  width: 10%;
+}
+.col-90{
+  width: 90%;
 }
 
 .bt_style1 {
@@ -126,12 +132,12 @@ h1 {
 .marginY-100 {
   margin: 100px 0;
 }
+
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* -- GENERAL STYLE -- */
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 /* header */
 header {
@@ -140,7 +146,6 @@ header {
 header a {
   color: #444444;
 }
-
 header ul {
   display: inline;
 }
@@ -163,7 +168,7 @@ header img{
 }
 .hero .container {
   position: relative;
-  top: 50px;
+  top: 70px;
 }
 .hero h1 {
   margin: 35px 0;
@@ -179,50 +184,39 @@ header img{
 }
 
 /* -- business-plan */
-.business-plan .card-header p {
+.card .card-header{
+  border-bottom: 2px solid #ededee;
   text-align: center;
   padding: 10px;
-  border-bottom: 2px solid #ededee;
 }
-.business-plan .card-main {
+.card .card-main{
   padding: 0 30px;
 }
-
-.business-plan .card-main-box {
+.card .card-main-box{
   margin: 30px 0;
 }
-
-.business-plan .card-main-box b {
-  line-height: 30px;
-}
-
-.business-plan .card-main-box p {
-  display: inline-block;
-  margin: 20px 0;
-}
-
 .linietta {
   background-color: #ededee;
   width: 25%;
   height: 2px;
 }
-
-.business-plan .team-head {
-  text-align: center;
-  padding: 10px;
-  border-bottom: 2px solid #ededee;
+.card h3{
+  padding: 20px 0px;
 }
-
-.business-plan .team-foot {
-  padding: 20px;
+.card b{
+  line-height: 30px;
 }
-.business-plan .team-foot b,
-.business-plan .team-foot p {
-  display: inline-block;
-  margin: 20px 0;
+.card-main-box :is(p,i){
+  padding: 10px 0px;
 }
-
+.card-main-box i{
+  padding-top:13px;
+}
+.business-plan .card:last-child{
+  margin-top: 50px;
+}
 /* -- finde-partner */
+
 /* -- option-dropbox */
 /* -- our-customers */
 /* -- designit-section */
