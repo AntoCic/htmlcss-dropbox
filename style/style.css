@@ -92,6 +92,9 @@ h1 {
 .col-10 {
   width: 10%;
 }
+.col-20 {
+  width: 20%;
+}
 .col-33 {
   width: calc(100%/3);
 }
@@ -325,6 +328,23 @@ header img{
 
 .faq i{
   margin-left:auto ;
+}
+/* footer */
+footer{
+  background-color: black;
+  color: white;
+}
+footer a{
+  color: white;
+  line-height: 30px;
+}
+
+footer select{
+  color: white;
+  background-color: black;
+  border: 0;
+  border-top: 1px solid white;
+  padding: 30px 0;
 }
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
