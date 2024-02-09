@@ -338,7 +338,10 @@ footer a{
   color: white;
   line-height: 30px;
 }
+.useful-links{
+  padding: 50px 0;
 
+}
 footer select{
   color: white;
   background-color: black;
