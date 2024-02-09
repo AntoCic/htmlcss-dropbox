@@ -31,15 +31,17 @@ h1 {
 /* -- LAYOUT -- */
 .container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1224px;
+  padding: 12px;
 }
 .container-lg {
   margin: 0 auto;
-  max-width: 1924px;
+  max-width: 100%;
 }
 .container-sm {
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1024px;
+  padding: 12px;
 }
 
 .row {
@@ -54,7 +56,11 @@ h1 {
   flex-wrap: wrap;
 }
 
-.row-reverse {
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-reverse {
   flex-direction: row-reverse;
 }
 
@@ -100,6 +106,7 @@ h1 {
   background-color: #0061ff;
   color: white;
   padding: 10px;
+  text-align: center;
 }
 
 .text-gray {
@@ -139,7 +146,14 @@ header ul {
 }
 header li {
   display: inline;
-  margin: 10px;
+  margin: 0 10px;
+  line-height: 22px;
+}
+header img{
+  display: inline-block;
+}
+.logo{
+  vertical-align:sub ;
 }
 
 /* main */
@@ -151,24 +165,19 @@ header li {
   position: relative;
   top: 50px;
 }
-
-/* .hero .img-hero {
-  background-color: #081753;
-  width: 100%;
-  height: 500px;
-} */
-
-.hero .icon-arrow-down {
-  font-size: 40px;
-  position: absolute;
-  bottom: 60px;
-}
 .hero h1 {
   margin: 35px 0;
 }
-.hero button {
-  margin: 35px 0;
+.hero .bt_style1 {
+  width: fit-content;
+  padding: 10px 15px;
 }
+.hero .icon-arrow-down {
+  font-size: 40px;
+  margin-top: auto;
+  margin-bottom: 50px;
+}
+
 /* -- business-plan */
 .business-plan .card-header p {
   text-align: center;
