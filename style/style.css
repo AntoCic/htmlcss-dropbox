@@ -233,8 +233,13 @@ header img{
   background-color: white;
   border: 1px solid black;
 }
-
 /* -- option-dropbox */
+.card-option{
+  padding: 50px 0;
+}
+.card-option p{
+  padding: 20px 0;
+}
 /* -- our-customers */
 /* -- designit-section */
 /* -- free-try-section */
