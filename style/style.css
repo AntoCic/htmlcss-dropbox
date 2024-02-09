@@ -89,20 +89,26 @@ h1 {
 .col-100 {
   width: 100%;
 }
-.col-50 {
-  width: 50%;
+.col-10 {
+  width: 10%;
 }
 .col-33 {
   width: calc(100%/3);
 }
-.col-30 {
-  width: calc((100%-100px)/3);
+.col-40{
+  width: 40%;
+}
+.col-card {
+  width: calc((100% - 100px)/3);
+}
+.col-50 {
+  width: 50%;
+}
+.col-60{
+  width: 60%;
 }
 .col-66 {
   width: calc((100% / 3) * 2);
-}
-.col-10{
-  width: 10%;
 }
 .col-90{
   width: 90%;
@@ -216,6 +222,17 @@ header img{
   margin-top: 50px;
 }
 /* -- finde-partner */
+.finde-partner .col-40{
+  padding: 50px;
+}
+.finde-partner p{
+  margin: 20px 0;
+}
+.finde-partner button{
+  padding: 10px;
+  background-color: white;
+  border: 1px solid black;
+}
 
 /* -- option-dropbox */
 /* -- our-customers */
