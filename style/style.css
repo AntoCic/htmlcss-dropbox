@@ -218,6 +218,12 @@ header img{
 .card-main-box i{
   padding-top:13px;
 }
+
+.card-main-box a{
+  color: #0E12F2;
+  text-decoration:underline;
+}
+
 .business-plan .card:last-child{
   margin-top: 50px;
 }
@@ -241,6 +247,11 @@ header img{
   padding: 20px 0;
 }
 /* -- our-customers */
+.our-customers a{
+  color: #0E12F2;
+  text-decoration:underline;
+  line-height: 100px;
+}
 /* -- designit-section */
 /* -- free-try-section */
 /* -- faq */
