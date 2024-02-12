@@ -229,7 +229,12 @@ header img{
 .card-main-box i{
   padding-top:13px;
 }
-
+.col-card .card-main-box .bt_style1{
+  width: 100%;
+}
+.col-100 .card-main-box .bt_style1{
+  min-width: 70%;
+}
 .card-main-box a{
   color: #0E12F2;
   text-decoration:underline;
