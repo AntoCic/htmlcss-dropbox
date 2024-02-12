@@ -26,7 +26,12 @@ img {
 h1 {
   font-size: 76px;
 }
-
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 23px;
+}
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* -- LAYOUT -- */
 .container {
@@ -189,7 +194,7 @@ header img{
 .hero .icon-arrow-down {
   font-size: 40px;
   margin-top: auto;
-  margin-bottom: 50px;
+  margin-bottom: 65px;
 }
 
 /* -- business-plan */
@@ -298,9 +303,11 @@ header img{
 .designit-main img{
   width: 50%;  
 }
-.designit-main  .linietta,
-.designit-main p:last-child{
+.designit-main  .linietta{
   margin: 30px 0;
+}
+.designit-main p:last-child{
+  margin-top: 30px;
 }
 /* -- free-try-section */
 .free-try-section{
