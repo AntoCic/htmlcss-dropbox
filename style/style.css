@@ -171,6 +171,8 @@ header li {
 header img{
   display: inline-block;
 }
+
+/* @@ ci sono andato per tentativi come la line-height */
 .logo{
   vertical-align:sub ;
 }
