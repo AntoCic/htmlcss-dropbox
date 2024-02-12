@@ -181,6 +181,7 @@ header img{
 /* -- hero */
 .hero {
   background-color: #b4d0e7;
+  margin-bottom: 120px;
 }
 .hero .container {
   position: relative;
