@@ -101,24 +101,24 @@ h3 {
   width: 20%;
 }
 .col-33 {
-  width: calc(100%/3);
+  width: calc(100% / 3);
 }
-.col-40{
+.col-40 {
   width: 40%;
 }
 .col-card {
-  width: calc((100% - 100px)/3);
+  width: calc((100% - 100px) / 3);
 }
 .col-50 {
   width: 50%;
 }
-.col-60{
+.col-60 {
   width: 60%;
 }
 .col-66 {
   width: calc((100% / 3) * 2);
 }
-.col-90{
+.col-90 {
   width: 90%;
 }
 
@@ -168,13 +168,13 @@ header li {
   margin: 0 10px;
   line-height: 22px;
 }
-header img{
+header img {
   display: inline-block;
 }
 
 /* @@ ci sono andato per tentativi come la line-height */
-.logo{
-  vertical-align:sub ;
+.logo {
+  vertical-align: sub;
 }
 
 /* main */
@@ -201,15 +201,15 @@ header img{
 }
 
 /* -- business-plan */
-.card .card-header{
+.card .card-header {
   border-bottom: 2px solid #ededee;
   text-align: center;
   padding: 10px;
 }
-.card .card-main{
+.card .card-main {
   padding: 0 30px;
 }
-.card .card-main-box{
+.card .card-main-box {
   margin: 30px 0;
 }
 .linietta {
@@ -217,151 +217,157 @@ header img{
   width: 25%;
   height: 2px;
 }
-.card h3{
+.card h3 {
   padding: 20px 0px;
 }
-.card b{
+.card b {
   line-height: 30px;
 }
-.card-main-box :is(p,i){
+.card-main-box :is(p, i) {
   padding: 10px 0px;
 }
-.card-main-box i{
-  padding-top:13px;
+.card-main-box i {
+  padding-top: 13px;
 }
-.col-card .card-main-box .bt_style1{
+.col-card .card-main-box .bt_style1 {
   width: 100%;
 }
-.col-100 .card-main-box .bt_style1{
+.col-100 .card-main-box .bt_style1 {
   min-width: 70%;
 }
-.card-main-box a{
-  color: #0E12F2;
-  text-decoration:underline;
+.card-main-box a {
+  color: #0e12f2;
+  text-decoration: underline;
 }
 
-.business-plan .card:last-child{
+.business-plan .card:last-child {
   margin-top: 50px;
 }
 /* -- finde-partner */
-.finde-partner .col-40{
+.finde-partner .col-40 {
   padding: 50px;
 }
-.finde-partner p{
+.finde-partner p {
   margin: 20px 0;
 }
-.finde-partner button{
+.finde-partner button {
   padding: 10px;
   background-color: white;
   border: 1px solid black;
 }
 /* -- option-dropbox */
-.card-option{
+.card-option {
   padding: 50px 0;
 }
-.card-option p{
+.card-option p {
   padding: 20px 0;
 }
 /* -- our-customers */
-.our-customers a{
-  color: #0E12F2;
-  text-decoration:underline;
+.our-customers a {
+  color: #0e12f2;
+  text-decoration: underline;
   line-height: 100px;
 }
 /* -- designit-section */
-.designit-section .col-50{
+.designit-section .col-50 {
   /* height: calc(33vw / 2);  */
   aspect-ratio: 1/1;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   padding: 50px;
 }
-.designit-section .col-50 img{
+
+.designit-section .col-50:hover {
+  border: 10px solid rgba(255, 255, 255, 0.705);
+}
+/* .designit-section .col-50:hover img{
+  filter: invert(0);
+} */
+.designit-section .col-50 img {
   filter: invert(1);
 }
-.logo-designit{
-  background-color: #A2D39B;
-  border: 10px solid #D1E9CD;
+
+
+.logo-designit {
+  background-color: #a2d39b;
 }
-.logo-arizona{
-  background-color: #61082B;
+.logo-arizona {
+  background-color: #61082b;
 }
-.logo-uf{
-  background-color: #0093CE;
+.logo-uf {
+  background-color: #0093ce;
 }
-.logo-topps{
-  background-color: #FF1C1C;
+.logo-topps {
+  background-color: #ff1c1c;
 }
 
-.logo-bicycle{
-  background-color: #D5001F;
+.logo-bicycle {
+  background-color: #d5001f;
 }
-.logo-hearst{
-  background-color: #B4D0E7;
+.logo-hearst {
+  background-color: #b4d0e7;
 }
-.logo-lonely{
-  background-color: #0D2481;
+.logo-lonely {
+  background-color: #0d2481;
 }
-.logo-channel{
-  background-color: #FFD830;
+.logo-channel {
+  background-color: #ffd830;
 }
 
-.designit-main{
-  background-color: #F5F5F5;
+.designit-main {
+  background-color: #f5f5f5;
   padding: 50px;
-  max-height: 33vw; 
+  max-height: 33vw;
 }
-.designit-main img{
-  width: 50%;  
+.designit-main img {
+  width: 50%;
 }
-.designit-main  .linietta{
+.designit-main .linietta {
   margin: 30px 0;
 }
-.designit-main p:last-child{
+.designit-main p:last-child {
   margin-top: 30px;
 }
 /* -- free-try-section */
-.free-try-section{
-  background-color: #B4D0E7;
+.free-try-section {
+  background-color: #b4d0e7;
 }
-.free-try-section h2{
-  color: #61082B;
+.free-try-section h2 {
+  color: #61082b;
   padding: 100px 0;
 }
-.free-try-section button{
+.free-try-section button {
   margin-top: 100px;
   background-color: white;
   padding: 10px 30px;
-
 }
 /* -- faq */
-.faq h2{
+.faq h2 {
   margin-bottom: 50px;
 }
 
-.faq .container-sm>div.flex{
-  border-top: 1px solid black; 
+.faq .container-sm > div.flex {
+  border-top: 1px solid black;
   padding: 40px 0;
 }
 
-.faq i{
-  margin-left:auto ;
+.faq i {
+  margin-left: auto;
 }
 /* footer */
-footer{
+footer {
   background-color: black;
   color: white;
 }
-footer a{
+footer a {
   color: white;
   line-height: 30px;
 }
-.useful-links{
+.useful-links {
   padding: 50px 0;
-
 }
-footer select{
+footer select {
   color: white;
   background-color: black;
   border: 0;
